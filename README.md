@@ -166,3 +166,36 @@ Glassdoor-Job-Salary-Prediction/
 **Data Science + Exploratory Data Analysis + Machine Learning Regression**
 
 **Contribution:** Individual Project
+
+---
+
+## 🌐 Streamlit Web Application
+
+The trained salary prediction model is deployed as a Streamlit web application.
+
+The application allows users to enter job-related information such as:
+
+- Job Title
+- Company Rating
+- Location
+- Headquarters
+- Company Size
+- Year Founded
+- Type of Ownership
+- Industry
+- Sector
+- Revenue
+- Competitors
+
+The application then predicts the estimated average salary for the job.
+
+### ▶️ Run the Application Locally
+
+```bash
+streamlit run app.py
+
+The application will open in the browser at:
+http://localhost:8501
+
+The application can be deployed using Streamlit Community Cloud directly from the GitHub repository.
+
